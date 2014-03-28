@@ -2,7 +2,7 @@
 	"name" : "CCPC_Sampler",
 	"version" : 1,
 	"creationdate" : -867199941,
-	"modificationdate" : -817800101,
+	"modificationdate" : -816155407,
 	"viewrect" : [ 67.0, 76.0, 414.0, 765.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
@@ -280,12 +280,7 @@
 		}
 ,
 		"data" : 		{
-			"etude_1_names.txt" : 			{
-				"kind" : "textfile",
-				"local" : 1
-			}
-,
-			"message_to_makeBuffers.txt" : 			{
+			"seagulls_1_midi.txt" : 			{
 				"kind" : "textfile",
 				"local" : 1
 			}
@@ -295,12 +290,17 @@
 				"local" : 1
 			}
 ,
-			"seagulls_1_midi.txt" : 			{
+			"slides_rubs_2_midi.txt" : 			{
 				"kind" : "textfile",
 				"local" : 1
 			}
 ,
-			"slides_rubs_2_midi.txt" : 			{
+			"laciguena_samples.txt" : 			{
+				"kind" : "textfile",
+				"local" : 1
+			}
+,
+			"message_to_makeBuffers.txt" : 			{
 				"kind" : "textfile",
 				"local" : 1
 			}

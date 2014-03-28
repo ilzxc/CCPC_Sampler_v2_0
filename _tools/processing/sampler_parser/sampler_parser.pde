@@ -1,9 +1,12 @@
 void setup()
 {  
-  String samples[] = loadStrings( "samples.txt" );
-  String input_lines[] = loadStrings( "testEb.txt" ); // if success...
+  String samples[] = loadStrings( "samples_enum.txt" );
+  String sample_filenames[] = loadStrings( "samples_filenames.txt" );
+  write_samples( sample_filenames, "mallets_samples.txt" );
+  exit();
+  String input_lines[] = loadStrings( "testFs.txt" ); // if success...
   sanity_check( input_lines, samples );
-  write_result( input_lines, samples ); // sanity check
+  write_result( input_lines, samples, "mallets_Fs_midi.txt" ); // sanity check
 //  write_samples( samples );
   noLoop();
   exit();
@@ -50,9 +53,9 @@ void sanity_check( String input_lines[], String samples[] )
   }
 }
 
-void write_result( String input_lines[], String samples[] )
+void write_result( String input_lines[], String samples[], String filename )
 {
-  PrintWriter output = createWriter( "parsed_coll.txt" );
+  PrintWriter output = createWriter( filename );
   for ( int i = 0; i < input_lines.length; ++i ) {
     String tokens[] = splitTokens( input_lines[i] );
     int note = note_to_midi( tokens[0] );
@@ -92,11 +95,11 @@ void write_result( String input_lines[], String samples[] )
   output.close();
 }
 
-void write_samples( String samples[] )
+void write_samples( String samples[], String filename )
 {
-  PrintWriter output = createWriter( "samples_coll.txt" );
+  PrintWriter output = createWriter( filename );
   for( int i = 0; i < samples.length; ++i ) {
-    output.println( ( i + 1 ) + ", " + samples[ i ] + "; " );
+    output.println( ( i ) + ", " + samples[ i ] + "; " );
   }
   output.flush();
   output.close();
@@ -106,7 +109,7 @@ int fetch_sample_number( String sample_name, String[] samples )
 {
   for ( int i = 0; i < samples.length; ++i ) {
     if ( sample_name.equals( samples[i] ) ) {
-      return i + 1; // enum from 1
+      return i; // do not add one!
     }
   }
   print( "ERROR: FAILED TO MATCH SAMPLE" );
