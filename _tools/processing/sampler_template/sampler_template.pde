@@ -1,18 +1,21 @@
 void setup()
 {
   for ( int i = 0; i <= 120; ++i ) {
-  String note = get_note( i ) + get_octave( i );
-  String fit;
-  if ( i > 99 ) {
-    fit = "" + i;
-  } else if ( i > 9 ) {
-   fit = "0" + i;
-  } else {
-   fit = "00" + i;
-  } 
-  println( note +  "   :   " );
+    String note = get_note( i ) + get_octave( i );
+    String fit;
+    if ( i > 99 ) {
+      fit = "" + i;
+    } else if ( i > 9 ) {
+     fit = "0" + i;
+    } else {
+     fit = "00" + i;
+    } 
+    println( note +  "   :   " );
+  }
+  noLoop();
+  exit();
 }
-}
+
 
 String get_note( int midi_note )
 {
