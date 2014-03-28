@@ -1,0 +1,87 @@
+a#-1  : knock_2_norm1 * - | C1_grsh_mf1_norm1 * - | C1_orsh_mf1_norm1 * 50-
+c#0   : C1_grsh_mf1_norm1 c-0 - | C1_orsh_mf1_norm1 b--1 50-
+d-0   : D__Eb1_orsh_mf1_norm1__31 * 49- | D1_grsh_mf1_norm1_31 * -
+d#0   : Eb1_orsh_mf1_norm1 * 50- | Fs1_orsh_mf2_norm1 50-
+e-0   : Eb1_grlg_mf1_norm d#0 - | Eb1_orlg_mf1_norm1 d#0 50-
+f-0   : Fs1_grsh_mf1_norm1 f#0 - | Eb1_grsh_mf1_norm1 d#0 -
+f#0   : Fs1_grsh_mf1_norm1 f#0 - | Eb1_grsh_mf1_norm1 d#0 -
+g-0   : Fs1_grsh_mf1_norm1 f#0 -
+g#0   : Fs1_grsh_mf1_norm1 f#0 -
+a-0   : A_A1_grsh_mf1_norm1__49 * - | __A1_orsh_mf1_norm1__49 * 50-
+a#0   : A1_grlg_mf2_norm a-0 - | A1_orlg_mf1_norm1 a-0 50-
+b-0   : A1_orsh_mf1_norm1 a-0 50- | A1_grsh_mf1_norm1 a-0 -
+c-1   : A1_orsh_mf1_norm1 a-0 50- | A1_grsh_mf1_norm1 a-0 -
+c#1   : A1_orsh_mf1_norm1 a-0 50- | A1_grsh_mf1_norm1 a-0 -
+d-1   : Db2_orsh_mf1_norm1_31 c#1 50- | Db2_grsh_mf1_norm_31 c#1 -
+d#1   : Eb2_orsh_mf2_norm1 * 50- | Eb2_grsh_mf1_norm1 * -
+e-1   : Eb2_orlg_mf1_norm1 d#1 50- | Eb2_grlg_mf1_norm d#1 -
+f-1   : Fs2_orsh_mf1_norm1 f#1 50- | Fs2_grsh_mf1_norm1 f#1 -
+f#1   : Fs2_orsh_mf1_norm1 f#1 50- | Fs2_grsh_mf1_norm1 f#1 -
+g-1   : Fs2_orlg_mf1_norm1 f#1 49- | Fs2_grlg_mf1_norm f#1 -
+g#1   : A2_grsh_mf1_norm1 a-1 - | A2_orsh_mf1_norm1 a-1 50-
+a-1   : A2_grsh_mf1_norm1 a-1 - | A2_orsh_mf1_norm1 a-1 50-
+a#1   : A2_grsh_mf1_norm1 a-1 - | A2_orsh_mf1_norm1 a-1 50- | knock_4_norm1
+b-1   : C3_grlg_mf1_norm c-2 - | C3_orlg_mf1_norm1 c-2 49-
+c-2   : C3_orsh_mf1_norm1 c-2 50- | C3_grsh_mf1_norm1 c-2 -
+c#2   : C3_orsh_mf1_norm1 c-2 50- | C3_grsh_mf1_norm1 c-2 -
+d-2   : Db_C3_orsh_mf1_norm1__31 c#2 50- | Db_C3_grsh_mf1_norm1__31 c#2 -
+d#2   : Eb3_orsh_mf2_norm1 d#2 50- | Eb3_grlg_mf1_norm d#2 -
+e-2   : Eb3_orsh_mf2_norm1 d#2 50- | Eb3_grlg_mf1_norm d#2 -
+f-2   : Eb3_orsh_mf2_norm1 d#2 50- | Eb3_grlg_mf1_norm d#2 - | Fs3_orsh_mf3_norm1 f#2 50- | Fs3_grsh_mf1_norm1 f#2 -
+f#2   : Eb3_orsh_mf2_norm1 d#2 50- | Eb3_grlg_mf1_norm d#2 - | Fs3_orsh_mf3_norm1 f#2 50- | Fs3_grsh_mf1_norm1 f#2 -
+g-2   : Fs3_orsh_mf3_norm1 f#2 50- | Fs3_grsh_mf1_norm1 f#2 -
+g#2   : Fs3_orsh_mf3_norm1 f#2 50- | Fs3_grsh_mf1_norm1 f#2 - | A3_orsh_mf1_norm1 a-2 50- | A3_grsh_mf1_norm1 a-2 - | tape_g5_norm1 g-2 -
+a-2   : A3_orsh_mf1_norm1 a-2 50- | A3_grsh_mf1_norm1 a-2 -
+a#2   : __A3_orsh_mf1_norm1__49 a-2 50- | A_A3_grsh_mf1_norm1__49 a-2 - | tape_b4_norm1 b-2 -
+b-2   : C4_grsh_mf1_norm1 c-3 - | C4_orsh_mf1_norm1 c-3 50-
+c-3   : C4_grsh_mf1_norm1 c-3 - | C4_orsh_mf1_norm1 c-3 50- | tape_cs5_norm1 c#3 -
+c#3   : C4_grsh_mf1_norm1 c-3 - | C4_orsh_mf1_norm1 c-3 50-
+d-3   : D__Eb4_grsh_mf1_norm1__31 * - | D__Eb4_orsh_mf1_norm1__31 * 50-
+d#3   : Eb4_orsh_mf1_norm1 d#3 50- | Eb4_grsh_mf1_norm1 d#3 -
+e-3   : Eb4_orsh_mf1_norm1 d#3 50- | Eb4_grsh_mf1_norm1 d#3 -
+f-3   : Eb4_orsh_mf1_norm1 d#3 50- | Eb4_grsh_mf1_norm1 d#3 - | knock_5_norm1 f-2 -
+f#3   : Eb4_orsh_mf1_norm1 d#3 50- | Eb4_grsh_mf1_norm1 d#3 - | Fs4_orsh_mf1_norm1 f#3 - | Fs4_grsh_mf1_norm1 f#3 50-
+g-3   : Fs4_orsh_mf1_norm1 f#3 - | Fs4_grsh_mf1_norm1 f#3 50-
+g#3   : Fs4_orsh_mf1_norm1 f#3 - | Fs4_grsh_mf1_norm1 f#3 50- | A4_grsh_mf1_norm1 a-3 - | A4_orsh_mf1_norm1 a-3 50-
+a-3   : A4_grsh_mf1_norm1 a-3 - | A4_orsh_mf1_norm1 a-3 50-
+a#3   : A4_grsh_mf1_norm1 a-3 - | A4_orsh_mf1_norm1 a-3 50-
+b-3   : A4_grsh_mf1_norm1 a-3 - | A4_orsh_mf1_norm1 a-3 50- | C5_grsh_mf1_norm1 c-4 - | C5_orsh_mf1_norm1 c-4 50-
+c-4   : C5_grsh_mf1_norm1 c-4 - | C5_orsh_mf1_norm1 c-4 50-
+c#4   : C5_grsh_mf1_norm1 c-4 - | C5_orsh_mf1_norm1 c-4 50-
+d-4   : D5_orlg_mf2_norm1_31 * 49- | D5_grlg_mf1_norm_31 * -
+d#4   : Fs5_grsh_mf1_norm1 f#4 - | Eb5_orsh_mf1_norm1 * 50-
+e-4   : Eb5_orlg_mf1_norm1 d#4 50- | Eb5_grlg_mf1_norm d#4 -
+f-4   : Fs5_grsh_mf1_norm1 f#4 - | Fs4_orsh_mf1_norm1 f#4 50-
+f#4   : Fs5_grsh_mf1_norm1 f#4 - | Fs4_orsh_mf1_norm1 f#4 50-
+g-4   : Fs5_grsh_mf1_norm1 f#4 - | Fs4_orsh_mf1_norm1 f#4 50- | A5_orsh_mf1_norm1 a-4 50- | A5_grsh_mf1_norm1 a-4 -
+g#4   : A5_orsh_mf1_norm1 a-4 50- | A5_grsh_mf1_norm1 a-4 -
+a-4   : A5_orsh_mf1_norm1 a-4 50- | A5_grsh_mf1_norm1 a-4 - | tape_a4_norm1 * -
+a#4   : Bf5_grlg_mf1_norm_49 a#4 - | Bf5_orlg_mf1_norm1_49 a#4 -
+b-4   : A5_orlg_mf1_norm1 a-4 - | Eb6_grlg_mf1_norm d#5 -
+c-5   : A5_orlg_mf1_norm1 a-4 - | Eb6_grlg_mf1_norm d#5 -
+c#5   : Eb6_grsh_mf1_norm1 d#5 - | Eb6_orsh_mf1_norm1 d#5 48- | tape_d5_norm1 d#5 -
+d-5   : Db6_grsh_mf1_norm1_31 c#5 - | Db6_orsh_mf1_norm1_31 c#5 50-
+d#5   : Eb6_grsh_mf1_norm1 d#5 - | Eb6_orsh_mf1_norm1 d#5 50-
+e-5   : Eb6_grsh_mf1_norm1 d#5 - | Eb6_orsh_mf1_norm1 d#5 50-
+f-5   : Eb6_grsh_mf1_norm1 d#5 - | Eb6_orsh_mf1_norm1 d#5 50- | Fs6_orsh_mf1_norm1 f#5 50- | Fs6_grsh_mf1_norm1 f#5 -
+f#5   : Fs6_orsh_mf1_norm1 f#5 50- | Fs6_grsh_mf1_norm1 f#5 -
+g-5   : Fs6_orsh_mf1_norm1 f#5 50- | Fs6_grsh_mf1_norm1 f#5 -
+g#5   : Fs6_orsh_mf1_norm1 f#5 50- | Fs6_grsh_mf1_norm1 f#5 - | A6_grsh_mf1_norm1 a-5 -
+a-5   : Fs6_orsh_mf1_norm1 f#5 50- | Fs6_grsh_mf1_norm1 f#5 - | A6_grsh_mf1_norm1 a-5 -
+a#5   : __A6_orsh_f1_norm1__49 a-5 50- | A_A6_grsh_mf1_norm1__49 a-5 -
+b-5   : C7_orsh_mf1_norm1 c-6 50- | C7_grsh_mf1_norm1 c-6 -
+c-6   : C7_orsh_mf1_norm1 c-6 50- | C7_grsh_mf1_norm1 c-6 -
+c#6   : C7_orsh_mf1_norm1 c-6 50- | C7_grsh_mf1_norm1 c-6 -
+d-6   : Db_C7_orsh_mf1_norm1__31 c#6 50- | Db_C7_grsh_mf1_norm1__31 c#6 -
+d#6   : Eb7_grsh_mf1_norm1 d#6 50- | Eb7_orsh_mf1_norm1 d#6 -
+e-6   : Eb7_grsh_mf1_norm1 d#6 50- | Eb7_orsh_mf1_norm1 d#6 -
+f-6   : Eb7_grsh_mf1_norm1 d#6 50- | Eb7_orsh_mf1_norm1 d#6 - | Fs7_grsh_mf1_norm1 f#6 - | Fs7_orsh_mf1_norm1 f#6 50-
+f#6   : Fs7_grsh_mf1_norm1 f#6 - | Fs7_orsh_mf1_norm1 f#6 50-
+g-6   : Fs7_grsh_mf1_norm1 f#6 - | Fs7_orsh_mf1_norm1 f#6 50-
+g#6   : Fs7_grsh_mf1_norm1 f#6 - | Fs7_orsh_mf1_norm1 f#6 50-
+a-6   : Fs7_orsh_mf1_norm1 f#6 50- | A7_grsh_mf1_norm1 a-6 -
+a#6   : __A7_orsh_f1_norm1__49 a-6 50- | A_A7_grsh_mf1_norm1__49 a-6 -
+b-6   : C8_grsh_mf1_norm1 c-7 - | C8_orsh_mf1_norm1 c-7 50-
+c-7   : C8_grsh_mf1_norm1 c-7 - | C8_orsh_mf1_norm1 c-7 50-
+c#7   : C8_grsh_mf1_norm1 c-7 - | C8_orsh_mf1_norm1 c-7 50-
+d-7   : C8_grsh_mf1_norm1 c-7 - | C8_orsh_mf1_norm1 c-7 50-

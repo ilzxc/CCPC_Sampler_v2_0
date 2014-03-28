@@ -1,0 +1,85 @@
+a#-1  : knock_2_norm1 c-0 - | C1_orlg_mf1_norm1 c-0 50- | C1_grlg_mf1_norm c-0 -
+c#0   : Db1_orlg_mf1_norm1_31 c#0 - | Db1_grlg_mf1_norm_31 c#0 -
+d-0   : C1_grsh_mf1_norm1 c-0 - | C1_orsh_mf1_norm1 c-0 50-
+d#0   : C1_grsh_mf1_norm1 c-0 - | C1_orsh_mf1_norm1 c-0 50- | Eb1_orlg_mf1_norm1 * - | Eb1_grsh_mf1_norm1 d#0 - | Eb1_orsh_mf1_norm1 d#0 50-
+e-0   : Eb1_grsh_mf1_norm1 d#0 - | Eb1_orsh_mf1_norm1 d#0 50-
+f-0   : Eb1_grsh_mf1_norm1 d#0 - | Eb1_orsh_mf1_norm1 d#0 50- | Fs1_orsh_mf1_norm1 f#0 50- | Fs1_grsh_mf1_norm1 f#0 -
+f#0   : Fs1_orsh_mf1_norm1 f#0 50- | Fs1_grsh_mf1_norm1 f#0 -
+g-0   : Fs1_orsh_mf1_norm1 f#0 50- | Fs1_grsh_mf1_norm1 f#0 - | A1_grsh_mf1_norm1 a-0 - | A1_orsh_mf1_norm1 a-0 50-
+g#0   : Fs1_orsh_mf1_norm1 f#0 50- | Fs1_grsh_mf1_norm1 f#0 - | A1_grsh_mf1_norm1 a-0 - | A1_orsh_mf1_norm1 a-0 50-
+a-0   : Fs1_orsh_mf1_norm1 f#0 50- | Fs1_grsh_mf1_norm1 f#0 - | A1_grsh_mf1_norm1 a-0 - | A1_orsh_mf1_norm1 a-0 50-
+a#0   : A1_grsh_mf1_norm1 a-0 - | A1_orsh_mf1_norm1 a-0 50-
+b-0   : A1_grsh_mf1_norm1 a-0 - | A1_orsh_mf1_norm1 a-0 50-
+c-1   : A1_grsh_mf1_norm1 a-0 - | A1_orsh_mf1_norm1 a-0 50- | Eb2_grsh_mf1_norm1 d#1 - | Eb2_orsh_mf2_norm1 d#1 50-
+c#1   : A1_grsh_mf1_norm1 a-0 - | A1_orsh_mf1_norm1 a-0 50- | Eb2_grsh_mf1_norm1 d#1 - | Eb2_orsh_mf2_norm1 d#1 50-
+d-1   : Eb2_grsh_mf1_norm1 d#1 - | Eb2_orsh_mf2_norm1 d#1 50-
+d#1   : Eb2_grsh_mf1_norm1 d#1 - | Eb2_orsh_mf2_norm1 d#1 50-
+e-1   : Eb2_grsh_mf1_norm1 d#1 - | Eb2_orsh_mf2_norm1 d#1 50- | Fs2_grsh_mf1_norm1 f#1 - | Fs2_orsh_mf1_norm1 f#1 50-
+f-1   : Fs2_grsh_mf1_norm1 f#1 - | Fs2_orsh_mf1_norm1 f#1 50-
+f#1   : Fs2_orlg_mf1_norm1 * 49- | Fs2_grlg_mf1_norm * -
+g-1   : A2_orsh_mf1_norm1 a-1 50- | A2_grsh_mf1_norm1 a-1 -
+g#1   : A2_orsh_mf1_norm1 a-1 50- | A2_grsh_mf1_norm1 a-1 -
+a-1   : A2_orsh_mf1_norm1 a-1 50- | A2_grsh_mf1_norm1 a-1 -
+a#1   : A2_orsh_mf1_norm1 a-1 50- | A2_grsh_mf1_norm1 a-1 - | knock_4_norm1 g#1 -
+b-1   : C3_grsh_mf1_norm1 c-2 - | C3_orsh_mf1_norm1 c-2 50-
+c-2   : C3_grsh_mf1_norm1 c-2 - | C3_orsh_mf1_norm1 c-2 50-
+c#2   : C3_grsh_mf1_norm1 c-2 - | C3_orsh_mf1_norm1 c-2 50-
+d-2   : Db_C3_orsh_mf1_norm1__31 c#2 50- | Db_C3_grsh_mf1_norm1__31 c#2 -
+d#2   : Eb3_orlg_mf1_norm1 * - | Eb3_grlg_mf1_norm * - | knock_5_norm1 * -
+e-2   : Eb3_orsh_mf2_norm1 d#2 50- | Eb3_grsh_mf1_norm1 d#2 -
+f-2   : Eb3_orsh_mf2_norm1 d#2 50- | Eb3_grsh_mf1_norm1 d#2 - | Fs3_orsh_mf3_norm1 f#2 50- | Fs3_grsh_mf1_norm1 f#2 -
+f#2   : Eb3_orsh_mf2_norm1 d#2 50- | Eb3_grsh_mf1_norm1 d#2 - | Fs3_orsh_mf3_norm1 f#2 50- | Fs3_grsh_mf1_norm1 f#2 -
+g-2   : Fs3_orsh_mf3_norm1 f#2 50- | Fs3_grsh_mf1_norm1 f#2 -
+g#2   : Fs3_orsh_mf3_norm1 f#2 50- | Fs3_grsh_mf1_norm1 f#2 - | A3_orsh_mf1_norm1 a-2 50- | A3_grsh_mf1_norm1 a-2 -
+a-2   : A3_orsh_mf1_norm1 a-2 50- | A3_grsh_mf1_norm1 a-2 -
+a#2   : A_A3_grsh_mf1_norm1__49 a-2 - | __A3_orsh_mf1_norm1__49 a-2 50-
+b-2   : C4_orsh_mf1_norm1 c-3 50- | C4_grsh_mf1_norm1 c-3 -
+c-3   : C4_orsh_mf1_norm1 c-3 50- | C4_grsh_mf1_norm1 c-3 -
+c#3   : C4_orsh_mf1_norm1 c-3 50- | C4_grsh_mf1_norm1 c-3 -
+d-3   : D__Eb4_orsh_mf1_norm1__31 * 50- | D__Eb4_grsh_mf1_norm1__31 * -
+d#3   : Eb4_grsh_mf1_norm1 d#3 - | Eb4_orsh_mf1_norm1 d#3 50-
+e-3   : Eb4_grsh_mf1_norm1 d#3 - | Eb4_orsh_mf1_norm1 d#3 50-
+f-3   : Eb4_grsh_mf1_norm1 d#3 - | Eb4_orsh_mf1_norm1 d#3 50- | knock_5_norm1 f-2 -
+f#3   : Eb4_grsh_mf1_norm1 d#3 - | Eb4_orsh_mf1_norm1 d#3 50- | Fs4_grsh_mf1_norm1 f#3 - | Fs4_orsh_mf1_norm1 f#3 50-
+g-3   : Fs4_grsh_mf1_norm1 f#3 - | Fs4_orsh_mf1_norm1 f#3 50-
+g#3   : Fs4_grsh_mf1_norm1 f#3 - | Fs4_orsh_mf1_norm1 f#3 50- | A4_grsh_mf1_norm1 a-3 0 | A4_orsh_mf1_norm1 a-3 50-
+a-3   : A4_grsh_mf1_norm1 a-3 0 | A4_orsh_mf1_norm1 a-3 50-
+a#3   : A4_grsh_mf1_norm1 a-3 0 | A4_orsh_mf1_norm1 a-3 50-
+b-3   : A4_grsh_mf1_norm1 a-3 0 | A4_orsh_mf1_norm1 a-3 50- | C5_grsh_mf1_norm1 c-4 - | C5_orsh_mf1_norm1 c-4 50-
+c-4   : C5_grsh_mf1_norm1 c-4 - | C5_orsh_mf1_norm1 c-4 50-
+c#4   : C5_grsh_mf1_norm1 c-4 - | C5_orsh_mf1_norm1 c-4 50- | Eb5_orsh_mf1_norm1 d#4 50- | Fs5_grsh_mf1_norm1 f#4 -
+d-4   : C5_grsh_mf1_norm1 c-4 - | C5_orsh_mf1_norm1 c-4 50- | Eb5_orsh_mf1_norm1 d#4 50- | Fs5_grsh_mf1_norm1 f#4 -
+d#4   : Eb5_orsh_mf1_norm1 d#4 50- | Fs5_grsh_mf1_norm1 f#4 -
+e-4   : Eb5_grlg_mf1_norm d#3 - | Eb5_orlg_mf1_norm1 d#3 50-
+f-4   : Fs5_grsh_mf1_norm1 f#4 - | Fs5_orsh_mf1_norm1 f#4 50-
+f#4   : Fs5_orlg_mf1_norm1 f#4 49- | Fs5_grlg_mf1_norm f#4 -
+g-4   : A5_grsh_mf1_norm1 a-4 - | A5_orsh_mf1_norm1 a-4 50-
+g#4   : A5_grsh_mf1_norm1 a-4 - | A5_orsh_mf1_norm1 a-4 50-
+a-4   : A5_grsh_mf1_norm1 a-4 - | A5_orsh_mf1_norm1 a-4 50- | tape_a4_norm1 * -
+a#4   : A5_orsh_mf1_norm1 a-4 50- | A5_grsh_mf1_norm1 a-4 -
+b-4   : A5_orsh_mf1_norm1 a-4 50- | A5_grsh_mf1_norm1 a-4 -
+c-5   : C6_orlg_mf1_norm1_49 * 48- | C6_grlg_mf1_norm_49 * -
+c#5   : Eb6_orsh_mf1_norm1 d#5 48- | Eb6_grsh_mf1_norm1 d#5 -
+d-5   : Eb6_grlg_mf1_norm d#5 - | Fs6_orlg_mf1_norm1 f#5 50-
+d#5   : Eb6_orsh_mf1_norm1 d#5 50- | Eb6_grsh_mf1_norm1 d#5 -
+e-5   : Eb6_orsh_mf1_norm1 d#5 50- | Eb6_grsh_mf1_norm1 d#5 -
+f-5   : Fs6_orsh_mf1_norm1 f#5 50- | Fs6_grsh_mf1_norm1 f#5 -
+f#5   : Fs6_orsh_mf1_norm1 f#5 50- | Fs6_grsh_mf1_norm1 f#5 -
+g-5   : Fs6_orsh_mf1_norm1 f#5 50- | Fs6_grsh_mf1_norm1 f#5 -
+g#5   : Fs6_orsh_mf1_norm1 f#5 50- | Fs6_grsh_mf1_norm1 f#5 - | A6_grsh_mf1_norm1 a-5 -
+a-5   : Fs6_orsh_mf1_norm1 f#5 50- | Fs6_grsh_mf1_norm1 f#5 - | A6_grsh_mf1_norm1 a-5 -
+a#5   : __A6_orsh_f1_norm1__49 a-5 50- | A_A6_grsh_mf1_norm1__49 a-5 -
+b-5   : C7_grsh_mf1_norm1 c-6 - | C7_orsh_mf1_norm1 c-6 50-
+c-6   : C7_grsh_mf1_norm1__49 * - | C7_orsh_mf1_norm1__49 * 50-
+c#6   : C7_grsh_mf1_norm1 * - | C7_orsh_mf1_norm1 * 49-
+d-6   : Db_C7_orsh_mf1_norm1__31 c#6 50- | Db_C7_grsh_mf1_norm1__31 c#6 -
+d#6   : Eb7_grsh_mf1_norm1 d#6 50- | Eb7_grsh_mf1_norm1 d#6 -
+e-6   : Eb7_grsh_mf1_norm1 d#6 50- | Eb7_grsh_mf1_norm1 d#6 -
+f-6   : Eb7_grsh_mf1_norm1 d#6 50- | Eb7_grsh_mf1_norm1 d#6 - | Fs7_orsh_mf1_norm1 f#6 50- | Fs7_grsh_mf1_norm1 f#6 -
+f#6   : Fs7_orsh_mf1_norm1 f#6 50- | Fs7_grsh_mf1_norm1 f#6 -
+g-6   : Fs7_orsh_mf1_norm1 f#6 50- | Fs7_grsh_mf1_norm1 f#6 -
+g#6   : Fs7_orsh_mf1_norm1 f#6 50- | Fs7_grsh_mf1_norm1 f#6 -
+a-6   : Fs7_orsh_mf1_norm1 f#6 50- | A7_grsh_mf1_norm1 * -
+a#6   : __A7_orsh_f1_norm1__49 a-6 50- | A_A7_grsh_mf1_norm1__49 a-6 -
+b-6   : C8_grsh_mf1_norm1 c-7 - | C8_orsh_mf1_norm1 c-7 50-
+c-7   : C8_orsh_mf1_norm1__49 * 49- | C8_grsh_mf1_norm1__49 * -
