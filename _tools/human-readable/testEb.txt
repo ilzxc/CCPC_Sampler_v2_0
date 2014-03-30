@@ -42,7 +42,7 @@ f-3   : Eb4_grsh_mf1_norm1 d#3 - | Eb4_orsh_mf1_norm1 d#3 50-
 f#3   : Eb4_grsh_mf1_norm1 d#3 - | Eb4_orsh_mf1_norm1 d#3 50- | Fs4_orsh_mf1_norm1 f#3 50- | Fs4_grsh_mf1_norm1 f#3 -
 g-3   : Fs4_orsh_mf1_norm1 f#3 50- | Fs4_grsh_mf1_norm1 f#3 -
 g#3   : Fs4_orsh_mf1_norm1 f#3 50- | Fs4_grsh_mf1_norm1 f#3 -
-a-3   : A4_orlg_mf1_norm1 * 50- | _A4_grlg_mf1_norm_49 * -
+a-3   : A4_orlg_mf1_norm1_49 * 50- | _A4_grlg_mf1_norm_49 * -
 a#3   : A4_orlg_mf1_norm1 a-3 50- | A4_grlg_mf1_norm a-3 -
 b-3   : A4_orlg_mf1_norm1 a-3 50- | A4_grlg_mf1_norm a-3 -
 c-4   : C5_orsh_mf1_norm1 * 50- | C5_grsh_mf1_norm1 * -
