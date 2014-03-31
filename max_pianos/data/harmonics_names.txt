@@ -1,0 +1,9 @@
+51, Ef3_harmonic1;
+56, Af3_harmonic1;
+58, Bf3_harmonic1;
+69, A4_harmonic1;
+73, Cs5_harmonic1;
+78, superball_drag_pedal_rev;
+81, superball_gliss_1;
+83, superball_gliss_2;
+84, superball_gliss_3;

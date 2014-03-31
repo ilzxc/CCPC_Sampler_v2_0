@@ -1,0 +1,17 @@
+24, C1_resmute_f1_reverse;
+36, clave_loud_low1;
+40, clave_loud_low2;
+48, clave_1;
+52, clave_2;
+55, clave_3;
+59, clave_4;
+64, clave_soft_mid2;
+67, clave_mid1;
+72, knock_1;
+74, knock_2;
+76, knock_3;
+77, knock_4;
+79, knock_5;
+81, knock_6;
+83, knock_7;
+84, knock_8;

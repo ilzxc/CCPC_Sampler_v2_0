@@ -1,0 +1,8 @@
+56, caulk_Gs3;
+57, caulk_A3;
+60, caulk_C4;
+63, caulk_Ds4;
+66, caulk_Fs4;
+78, caulk_Fs5;
+81, caulk_A5;
+84, caulk_Cs6;
