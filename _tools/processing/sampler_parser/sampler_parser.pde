@@ -2,12 +2,19 @@ void setup()
 {  
   String samples[] = loadStrings( "samples_enum.txt" );
   String sample_filenames[] = loadStrings( "samples_filenames.txt" );
-  write_samples( sample_filenames, "mallets_samples.txt" );
-  exit();
-  String input_lines[] = loadStrings( "testFs.txt" ); // if success...
+  //write_samples( sample_filenames, "mallets_samples.txt" );
+  println( "\n\nPROCESSING testE.txt" );
+  String input_lines[] = loadStrings( "testE.txt" ); // if success...
   sanity_check( input_lines, samples );
-  write_result( input_lines, samples, "mallets_Fs_midi.txt" ); // sanity check
-//  write_samples( samples );
+  write_result( input_lines, samples, "mallets_E_midi.txt" ); // sanity check
+  println( "\n\nPROCESSING testFs.txt" );
+  String input_lines_2[] = loadStrings( "testFs.txt" );
+  sanity_check( input_lines_2, samples );
+  write_result( input_lines_2, samples, "mallets_Fs_midi.txt" );
+  println( "\n\nPROCESSING testEb.txt" );
+  String input_lines_3[] = loadStrings( "testEb.txt" );
+  sanity_check( input_lines_3, samples );
+  write_result( input_lines_3, samples, "mallets_Eb_midi.txt" );
   noLoop();
   exit();
 }
@@ -112,7 +119,7 @@ int fetch_sample_number( String sample_name, String[] samples )
       return i; // do not add one!
     }
   }
-  print( "ERROR: FAILED TO MATCH SAMPLE" );
+  print( "ERROR: FAILED TO MATCH SAMPLE:" + sample_name );
   exit();
   return -1;
 }
