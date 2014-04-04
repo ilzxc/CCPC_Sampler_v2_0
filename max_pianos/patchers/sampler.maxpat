@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 376.0, 77.0, 438.0, 285.0 ],
+		"rect" : [ 376.0, 77.0, 814.0, 688.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -140,7 +140,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 579.25, 398.0, 110.5, 18.0 ],
-					"text" : "1"
+					"text" : "2"
 				}
 
 			}
@@ -784,7 +784,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 700.0, 358.0, 50.0, 18.0 ],
-					"text" : "1"
+					"text" : "2"
 				}
 
 			}
@@ -1398,7 +1398,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 41.999996, 501.0, 166.0, 62.0 ],
-					"text" : "/sample \"Eb4_deadmute_f1\" \n/note 63 \n/root 63 \n/velocity 20 \n",
+					"text" : "/sample \"G3_3_norm\" \n/note 51 \n/root 55 \n/velocity 73 \n",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 
@@ -1978,140 +1978,140 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "groover~.maxpat",
-				"bootpath" : "/Users/ilyarostovtsev/Documents/cindy/CCPC_Sampler_v2_0/max_pianos/patchers",
+				"bootpath" : "/Users/ilyarostovtsev/Documents/cindy/CCPC_Sampler_v1.1/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "buffers.maxpat",
-				"bootpath" : "/Users/ilyarostovtsev/Documents/cindy/CCPC_Sampler_v2_0/max_pianos/patchers",
+				"bootpath" : "/Users/ilyarostovtsev/Documents/cindy/CCPC_Sampler_v1.1/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "makeBuffers.js",
-				"bootpath" : "/Users/ilyarostovtsev/Documents/cindy/CCPC_Sampler_v2_0/max_pianos/code",
+				"bootpath" : "/Users/ilyarostovtsev/Documents/cindy/CCPC_Sampler_v1.1/code",
 				"patcherrelativepath" : "../code",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "colls.maxpat",
-				"bootpath" : "/Users/ilyarostovtsev/Documents/cindy/CCPC_Sampler_v2_0/max_pianos/patchers",
+				"bootpath" : "/Users/ilyarostovtsev/Documents/cindy/CCPC_Sampler_v1.1/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "deadmute_midi.txt",
-				"bootpath" : "/Users/ilyarostovtsev/Documents/cindy/CCPC_Sampler_v2_0/max_pianos/data",
+				"bootpath" : "/Users/ilyarostovtsev/Documents/cindy/CCPC_Sampler_v1.1/data",
 				"patcherrelativepath" : "../data",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "deadmute_names.txt",
-				"bootpath" : "/Users/ilyarostovtsev/Documents/cindy/CCPC_Sampler_v2_0/max_pianos/data",
+				"bootpath" : "/Users/ilyarostovtsev/Documents/cindy/CCPC_Sampler_v1.1/data",
 				"patcherrelativepath" : "../data",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "clave_names.txt",
-				"bootpath" : "/Users/ilyarostovtsev/Documents/cindy/CCPC_Sampler_v2_0/max_pianos/data",
+				"bootpath" : "/Users/ilyarostovtsev/Documents/cindy/CCPC_Sampler_v1.1/data",
 				"patcherrelativepath" : "../data",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "clave_midi.txt",
-				"bootpath" : "/Users/ilyarostovtsev/Documents/cindy/CCPC_Sampler_v2_0/max_pianos/data",
+				"bootpath" : "/Users/ilyarostovtsev/Documents/cindy/CCPC_Sampler_v1.1/data",
 				"patcherrelativepath" : "../data",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "harmonics_names.txt",
-				"bootpath" : "/Users/ilyarostovtsev/Documents/cindy/CCPC_Sampler_v2_0/max_pianos/data",
+				"bootpath" : "/Users/ilyarostovtsev/Documents/cindy/CCPC_Sampler_v1.1/data",
 				"patcherrelativepath" : "../data",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "harmonics_midi.txt",
-				"bootpath" : "/Users/ilyarostovtsev/Documents/cindy/CCPC_Sampler_v2_0/max_pianos/data",
+				"bootpath" : "/Users/ilyarostovtsev/Documents/cindy/CCPC_Sampler_v1.1/data",
 				"patcherrelativepath" : "../data",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "magnet_names.txt",
-				"bootpath" : "/Users/ilyarostovtsev/Documents/cindy/CCPC_Sampler_v2_0/max_pianos/data",
+				"bootpath" : "/Users/ilyarostovtsev/Documents/cindy/CCPC_Sampler_v1.1/data",
 				"patcherrelativepath" : "../data",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "magnet_midi.txt",
-				"bootpath" : "/Users/ilyarostovtsev/Documents/cindy/CCPC_Sampler_v2_0/max_pianos/data",
+				"bootpath" : "/Users/ilyarostovtsev/Documents/cindy/CCPC_Sampler_v1.1/data",
 				"patcherrelativepath" : "../data",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "resmute_names.txt",
-				"bootpath" : "/Users/ilyarostovtsev/Documents/cindy/CCPC_Sampler_v2_0/max_pianos/data",
+				"bootpath" : "/Users/ilyarostovtsev/Documents/cindy/CCPC_Sampler_v1.1/data",
 				"patcherrelativepath" : "../data",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "resmute_midi.txt",
-				"bootpath" : "/Users/ilyarostovtsev/Documents/cindy/CCPC_Sampler_v2_0/max_pianos/data",
+				"bootpath" : "/Users/ilyarostovtsev/Documents/cindy/CCPC_Sampler_v1.1/data",
 				"patcherrelativepath" : "../data",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "seagulls_names.txt",
-				"bootpath" : "/Users/ilyarostovtsev/Documents/cindy/CCPC_Sampler_v2_0/max_pianos/data",
+				"bootpath" : "/Users/ilyarostovtsev/Documents/cindy/CCPC_Sampler_v1.1/data",
 				"patcherrelativepath" : "../data",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "seagulls_midi.txt",
-				"bootpath" : "/Users/ilyarostovtsev/Documents/cindy/CCPC_Sampler_v2_0/max_pianos/data",
+				"bootpath" : "/Users/ilyarostovtsev/Documents/cindy/CCPC_Sampler_v1.1/data",
 				"patcherrelativepath" : "../data",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "caulk_names.txt",
-				"bootpath" : "/Users/ilyarostovtsev/Documents/cindy/CCPC_Sampler_v2_0/max_pianos/data",
+				"bootpath" : "/Users/ilyarostovtsev/Documents/cindy/CCPC_Sampler_v1.1/data",
 				"patcherrelativepath" : "../data",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "caulk_midi.txt",
-				"bootpath" : "/Users/ilyarostovtsev/Documents/cindy/CCPC_Sampler_v2_0/max_pianos/data",
+				"bootpath" : "/Users/ilyarostovtsev/Documents/cindy/CCPC_Sampler_v1.1/data",
 				"patcherrelativepath" : "../data",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "repeated_names.txt",
-				"bootpath" : "/Users/ilyarostovtsev/Documents/cindy/CCPC_Sampler_v2_0/max_pianos/data",
+				"bootpath" : "/Users/ilyarostovtsev/Documents/cindy/CCPC_Sampler_v1.1/data",
 				"patcherrelativepath" : "../data",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "repeated_midi.txt",
-				"bootpath" : "/Users/ilyarostovtsev/Documents/cindy/CCPC_Sampler_v2_0/max_pianos/data",
+				"bootpath" : "/Users/ilyarostovtsev/Documents/cindy/CCPC_Sampler_v1.1/data",
 				"patcherrelativepath" : "../data",
 				"type" : "TEXT",
 				"implicit" : 1

@@ -3,8 +3,9 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 6,
-			"minor" : 0,
-			"revision" : 8
+			"minor" : 1,
+			"revision" : 6,
+			"architecture" : "x86"
 		}
 ,
 		"rect" : [ 163.0, 104.0, 1142.0, 636.0 ],
@@ -333,7 +334,7 @@
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"outlettype" : [ "int" ],
 					"patching_rect" : [ 471.0, 180.0, 25.0, 25.0 ]
 				}
 
@@ -373,7 +374,7 @@
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"outlettype" : [ "int" ],
 					"patching_rect" : [ 1041.0, 180.0, 25.0, 25.0 ]
 				}
 
@@ -419,7 +420,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
-					"patching_rect" : [ 129.0, 315.0, 148.0, 20.0 ],
+					"patching_rect" : [ 129.0, 315.0, 147.0, 20.0 ],
 					"saved_object_attributes" : 					{
 						"embed" : 0
 					}
@@ -914,119 +915,6 @@
 					"source" : [ "obj-9", 7 ]
 				}
 
-			}
- ],
-		"dependency_cache" : [ 			{
-				"name" : "deadmute_midi.txt",
-				"bootpath" : "/Users/ilyarostovtsev/Documents/Max 6 Projects/CCPC_Sampler_v1.1/data",
-				"patcherrelativepath" : "../data",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "deadmute_names.txt",
-				"bootpath" : "/Users/ilyarostovtsev/Documents/Max 6 Projects/CCPC_Sampler_v1.1/data",
-				"patcherrelativepath" : "../data",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "clave_names.txt",
-				"bootpath" : "/Users/ilyarostovtsev/Documents/Max 6 Projects/CCPC_Sampler_v1.1/data",
-				"patcherrelativepath" : "../data",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "clave_midi.txt",
-				"bootpath" : "/Users/ilyarostovtsev/Documents/Max 6 Projects/CCPC_Sampler_v1.1/data",
-				"patcherrelativepath" : "../data",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "harmonics_names.txt",
-				"bootpath" : "/Users/ilyarostovtsev/Documents/Max 6 Projects/CCPC_Sampler_v1.1/data",
-				"patcherrelativepath" : "../data",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "harmonics_midi.txt",
-				"bootpath" : "/Users/ilyarostovtsev/Documents/Max 6 Projects/CCPC_Sampler_v1.1/data",
-				"patcherrelativepath" : "../data",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "magnet_names.txt",
-				"bootpath" : "/Users/ilyarostovtsev/Documents/Max 6 Projects/CCPC_Sampler_v1.1/data",
-				"patcherrelativepath" : "../data",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "magnet_midi.txt",
-				"bootpath" : "/Users/ilyarostovtsev/Documents/Max 6 Projects/CCPC_Sampler_v1.1/data",
-				"patcherrelativepath" : "../data",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "resmute_names.txt",
-				"bootpath" : "/Users/ilyarostovtsev/Documents/Max 6 Projects/CCPC_Sampler_v1.1/data",
-				"patcherrelativepath" : "../data",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "resmute_midi.txt",
-				"bootpath" : "/Users/ilyarostovtsev/Documents/Max 6 Projects/CCPC_Sampler_v1.1/data",
-				"patcherrelativepath" : "../data",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "seagulls_names.txt",
-				"bootpath" : "/Users/ilyarostovtsev/Documents/Max 6 Projects/CCPC_Sampler_v1.1/data",
-				"patcherrelativepath" : "../data",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "seagulls_midi.txt",
-				"bootpath" : "/Users/ilyarostovtsev/Documents/Max 6 Projects/CCPC_Sampler_v1.1/data",
-				"patcherrelativepath" : "../data",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "caulk_names.txt",
-				"bootpath" : "/Users/ilyarostovtsev/Documents/Max 6 Projects/CCPC_Sampler_v1.1/data",
-				"patcherrelativepath" : "../data",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "caulk_midi.txt",
-				"bootpath" : "/Users/ilyarostovtsev/Documents/Max 6 Projects/CCPC_Sampler_v1.1/data",
-				"patcherrelativepath" : "../data",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "repeated_names.txt",
-				"bootpath" : "/Users/ilyarostovtsev/Documents/Max 6 Projects/CCPC_Sampler_v1.1/data",
-				"patcherrelativepath" : "../data",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "repeated_midi.txt",
-				"bootpath" : "/Users/ilyarostovtsev/Documents/Max 6 Projects/CCPC_Sampler_v1.1/data",
-				"patcherrelativepath" : "../data",
-				"type" : "TEXT",
-				"implicit" : 1
 			}
  ]
 	}
