@@ -2,7 +2,7 @@
 	"name" : "CCPC_Sampler",
 	"version" : 1,
 	"creationdate" : -867199941,
-	"modificationdate" : -816155407,
+	"modificationdate" : -814950533,
 	"viewrect" : [ 67.0, 76.0, 414.0, 765.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
@@ -280,17 +280,17 @@
 		}
 ,
 		"data" : 		{
-			"seagulls_1_midi.txt" : 			{
+			"laciguena_slidesrubs_midi.txt" : 			{
 				"kind" : "textfile",
 				"local" : 1
 			}
 ,
-			"resmute_chords_midi.txt" : 			{
+			"laciguena_seagulls_midi.txt" : 			{
 				"kind" : "textfile",
 				"local" : 1
 			}
 ,
-			"slides_rubs_2_midi.txt" : 			{
+			"laciguena_resmute_midi.txt" : 			{
 				"kind" : "textfile",
 				"local" : 1
 			}
@@ -322,6 +322,10 @@
 				"kind" : "object",
 				"local" : 1
 			}
+
+		}
+,
+		"other" : 		{
 
 		}
 

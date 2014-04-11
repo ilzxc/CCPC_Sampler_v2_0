@@ -19,7 +19,10 @@
 87, 1_Eb4repeatedaif;
 88, 2_Eb4repeated;
 89, 3_A3repeated;
+90, 4_Bb2repeated_rev;
 91, 5_E5repeated;
+92, 6_A2repeated_rev;
 93, 7_F5repeated;
+94, 8_Ab2repeated_rev;
 95, 9_Gs3repeated;
 96, 10_Bf3repeated;

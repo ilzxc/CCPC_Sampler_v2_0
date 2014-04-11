@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 485.0, 78.0, 423.0, 280.0 ],
+		"rect" : [ 485.0, 78.0, 431.0, 273.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -71,8 +71,7 @@
 									"maxclass" : "outlet",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 135.0, 210.0, 25.0, 25.0 ],
-									"presentation_rect" : [ 132.0, 210.0, 0.0, 0.0 ]
+									"patching_rect" : [ 135.0, 210.0, 25.0, 25.0 ]
 								}
 
 							}
@@ -382,7 +381,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 579.25, 398.0, 110.5, 18.0 ],
-					"text" : "2"
+					"text" : "0"
 				}
 
 			}
@@ -572,7 +571,7 @@
 					"fontname" : "Helvetica Neue",
 					"fontsize" : 12.0,
 					"id" : "obj-21",
-					"items" : [ "to Max 1", ",", "to Max 2" ],
+					"items" : [ "to Max 1", ",", "to Max 2", ",", "from 01_La_Ciguena 1", ",", "from 01_La_Ciguena 2" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -747,7 +746,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 700.0, 358.0, 50.0, 18.0 ],
-					"text" : "2"
+					"text" : "0"
 				}
 
 			}
@@ -1355,13 +1354,13 @@
 					"fontname" : "Helvetica Neue",
 					"fontsize" : 12.0,
 					"id" : "obj-15",
-					"linecount" : 4,
+					"linecount" : 5,
 					"maxclass" : "o.message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 41.999996, 501.0, 166.0, 62.0 ],
-					"text" : "/sample \"wail_2_norm\"\n/note 71\n/root 71\n/velocity 33",
+					"patching_rect" : [ 41.999996, 501.0, 166.0, 76.0 ],
+					"text" : "/sample \"scrub1_rough_norm\"\n/note 60\n/root 60\n/velocity 104",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 
@@ -1959,56 +1958,56 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "groover~.maxpat",
-				"bootpath" : "/Users/ilyarostovtsev/Documents/cindy/CCPC_Sampler_v2_0/patchers",
+				"bootpath" : "/Users/ilyarostovtsev/Documents/cindy/CCPC_Sampler_v2_0/max_laciguena/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "buffers.maxpat",
-				"bootpath" : "/Users/ilyarostovtsev/Documents/cindy/CCPC_Sampler_v2_0/patchers",
+				"bootpath" : "/Users/ilyarostovtsev/Documents/cindy/CCPC_Sampler_v2_0/max_laciguena/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "makeBuffers.js",
-				"bootpath" : "/Users/ilyarostovtsev/Documents/cindy/CCPC_Sampler_v2_0/code",
+				"bootpath" : "/Users/ilyarostovtsev/Documents/cindy/CCPC_Sampler_v2_0/max_laciguena/code",
 				"patcherrelativepath" : "../code",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "colls.maxpat",
-				"bootpath" : "/Users/ilyarostovtsev/Documents/cindy/CCPC_Sampler_v2_0/patchers",
+				"bootpath" : "/Users/ilyarostovtsev/Documents/cindy/CCPC_Sampler_v2_0/max_laciguena/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "etude_1_names.txt",
-				"bootpath" : "/Users/ilyarostovtsev/Documents/cindy/CCPC_Sampler_v2_0/data",
+				"name" : "laciguena_samples.txt",
+				"bootpath" : "/Users/ilyarostovtsev/Documents/cindy/CCPC_Sampler_v2_0/max_laciguena/data",
 				"patcherrelativepath" : "../data",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "seagulls_1_midi.txt",
-				"bootpath" : "/Users/ilyarostovtsev/Documents/cindy/CCPC_Sampler_v2_0/data",
+				"name" : "laciguena_seagulls_midi.txt",
+				"bootpath" : "/Users/ilyarostovtsev/Documents/cindy/CCPC_Sampler_v2_0/max_laciguena/data",
 				"patcherrelativepath" : "../data",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "resmute_chords_midi.txt",
-				"bootpath" : "/Users/ilyarostovtsev/Documents/cindy/CCPC_Sampler_v2_0/data",
+				"name" : "laciguena_resmute_midi.txt",
+				"bootpath" : "/Users/ilyarostovtsev/Documents/cindy/CCPC_Sampler_v2_0/max_laciguena/data",
 				"patcherrelativepath" : "../data",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "slides_rubs_2_midi.txt",
-				"bootpath" : "/Users/ilyarostovtsev/Documents/cindy/CCPC_Sampler_v2_0/data",
+				"name" : "laciguena_slidesrubs_midi.txt",
+				"bootpath" : "/Users/ilyarostovtsev/Documents/cindy/CCPC_Sampler_v2_0/max_laciguena/data",
 				"patcherrelativepath" : "../data",
 				"type" : "TEXT",
 				"implicit" : 1

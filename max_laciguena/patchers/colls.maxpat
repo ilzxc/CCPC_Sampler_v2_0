@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 447.0, 145.0, 1142.0, 636.0 ],
+		"rect" : [ 298.0, 145.0, 1142.0, 636.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -78,12 +78,12 @@
 					"numinlets" : 1,
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
-					"patching_rect" : [ 129.0, 330.0, 152.0, 20.0 ],
+					"patching_rect" : [ 129.0, 330.0, 190.0, 20.0 ],
 					"saved_object_attributes" : 					{
 						"embed" : 0
 					}
 ,
-					"text" : "coll slides_rubs_2_midi.txt"
+					"text" : "coll laciguena_slidesrubs_midi.txt"
 				}
 
 			}
@@ -96,12 +96,12 @@
 					"numinlets" : 1,
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
-					"patching_rect" : [ 72.0, 300.0, 165.0, 20.0 ],
+					"patching_rect" : [ 72.0, 300.0, 179.0, 20.0 ],
 					"saved_object_attributes" : 					{
 						"embed" : 0
 					}
 ,
-					"text" : "coll resmute_chords_midi.txt"
+					"text" : "coll laciguena_resmute_midi.txt"
 				}
 
 			}
@@ -128,12 +128,12 @@
 					"numinlets" : 1,
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
-					"patching_rect" : [ 15.0, 270.0, 135.0, 20.0 ],
+					"patching_rect" : [ 15.0, 270.0, 179.0, 20.0 ],
 					"saved_object_attributes" : 					{
 						"embed" : 0
 					}
 ,
-					"text" : "coll seagulls_1_midi.txt"
+					"text" : "coll laciguena_seagulls_midi.txt"
 				}
 
 			}
@@ -281,7 +281,7 @@
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"outlettype" : [ "int" ],
 					"patching_rect" : [ 471.0, 167.5, 25.0, 25.0 ]
 				}
 
@@ -295,12 +295,12 @@
 					"numinlets" : 1,
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
-					"patching_rect" : [ 15.0, 420.0, 135.0, 20.0 ],
+					"patching_rect" : [ 15.0, 420.0, 152.0, 20.0 ],
 					"saved_object_attributes" : 					{
 						"embed" : 0
 					}
 ,
-					"text" : "coll etude_1_names.txt"
+					"text" : "coll laciguena_samples.txt"
 				}
 
 			}
@@ -493,35 +493,6 @@
 					"source" : [ "obj-9", 0 ]
 				}
 
-			}
- ],
-		"dependency_cache" : [ 			{
-				"name" : "etude_1_names.txt",
-				"bootpath" : "/Users/ilyarostovtsev/Desktop/cindy_sampler/CCPC_Sampler_v2_0/data",
-				"patcherrelativepath" : "../data",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "seagulls_1_midi.txt",
-				"bootpath" : "/Users/ilyarostovtsev/Desktop/cindy_sampler/CCPC_Sampler_v2_0/data",
-				"patcherrelativepath" : "../data",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "resmute_chords_midi.txt",
-				"bootpath" : "/Users/ilyarostovtsev/Desktop/cindy_sampler/CCPC_Sampler_v2_0/data",
-				"patcherrelativepath" : "../data",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "slides_rubs_2_midi.txt",
-				"bootpath" : "/Users/ilyarostovtsev/Desktop/cindy_sampler/CCPC_Sampler_v2_0/data",
-				"patcherrelativepath" : "../data",
-				"type" : "TEXT",
-				"implicit" : 1
 			}
  ]
 	}
