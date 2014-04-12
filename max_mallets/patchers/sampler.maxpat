@@ -51,7 +51,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 411.25, 105.0, 50.0, 18.0 ],
-					"text" : "96"
+					"text" : "52"
 				}
 
 			}
@@ -1561,7 +1561,7 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "mallets_Eb_midi.txt",
+				"name" : "mallets_Fs_midi.txt",
 				"bootpath" : "/Users/ilyarostovtsev/Documents/cindy/CCPC_Sampler_v2_0/max_mallets/data",
 				"patcherrelativepath" : "../data",
 				"type" : "TEXT",
@@ -1575,7 +1575,7 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "mallets_Fs_midi.txt",
+				"name" : "mallets_Eb_midi.txt",
 				"bootpath" : "/Users/ilyarostovtsev/Documents/cindy/CCPC_Sampler_v2_0/max_mallets/data",
 				"patcherrelativepath" : "../data",
 				"type" : "TEXT",

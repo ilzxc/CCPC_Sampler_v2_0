@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 495.0, 105.0, 883.0, 609.0 ],
+		"rect" : [ 709.0, 112.0, 883.0, 609.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -29,12 +29,26 @@
 		"tags" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"fontname" : "Helvetica Neue",
+					"fontsize" : 12.0,
+					"id" : "obj-8",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "FullPacket" ],
+					"patching_rect" : [ 59.25, 465.0, 387.0, 20.0 ],
+					"text" : "o.expr /velocity = scale( /velocity\\, /min_velocity\\, /max_velocity\\, 0\\, 127 )"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"comment" : "",
 					"id" : "obj-10",
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 44.25, 540.0, 25.0, 25.0 ]
+					"patching_rect" : [ 44.25, 570.0, 25.0, 25.0 ]
 				}
 
 			}
@@ -610,7 +624,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 59.25, 465.0, 47.5, 20.0 ],
+					"patching_rect" : [ 59.25, 495.0, 47.5, 20.0 ],
 					"text" : "t s s"
 				}
 
@@ -624,7 +638,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "FullPacket" ],
-					"patching_rect" : [ 87.75, 495.0, 78.0, 20.0 ],
+					"patching_rect" : [ 87.75, 525.0, 78.0, 20.0 ],
 					"text" : "o.route /play"
 				}
 
@@ -652,7 +666,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 44.25, 495.0, 34.0, 20.0 ],
+					"patching_rect" : [ 44.25, 525.0, 34.0, 20.0 ],
 					"text" : "gate"
 				}
 
@@ -842,7 +856,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-44", 0 ],
+					"destination" : [ "obj-8", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-41", 0 ]
@@ -936,6 +950,15 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-7", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-44", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-8", 0 ]
 				}
 
 			}
